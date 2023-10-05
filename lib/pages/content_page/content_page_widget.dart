@@ -70,10 +70,8 @@ class _ContentPageWidgetState extends State<ContentPageWidget> {
                     CachedNetworkImage(
                       fadeInDuration: Duration(milliseconds: 500),
                       fadeOutDuration: Duration(milliseconds: 500),
-                      imageUrl: valueOrDefault<String>(
-                        widget.facilityRef,
-                        'https://images.unsplash.com/photo-1624008915317-cb3ad69b16ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2FyZWhvdXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60',
-                      ),
+                      imageUrl:
+                          'https://images.unsplash.com/photo-1624008915317-cb3ad69b16ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2FyZWhvdXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60',
                       width: MediaQuery.sizeOf(context).width * 1.0,
                       height: 230.0,
                       fit: BoxFit.cover,
